@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 from newspaper import Article
 from pathlib import Path
@@ -28,4 +29,3 @@ if __name__ == "__main__":
         sys.exit(1)
     url = sys.argv[1]
     fetch_and_save(url)
-
